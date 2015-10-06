@@ -1,5 +1,47 @@
-<?php include "header.php" ?>
-<?php include "navbar.php" ?>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Samuel McCagg</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+  <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+      <div id="wrap">
+  <!-- Start NavBar -->
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.php">Samuel McCagg</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <!-- <ul class="nav navbar-nav">
+          <li><a href="index.php"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+        </ul> -->
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="about.php">About Me</a></li>
+          <li><a href="project.php">Projects</a></li>
+          <li><a href="contact.php">Contact Me</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End of Navbar -->
+
 
   <div class="container">
     <div id="mePic-container">
@@ -27,4 +69,25 @@
     </div>
   </div>
 
-<?php include "footer.php" ?>
+<!-- closing div tag for id=wrap -->
+</div>
+<div id="footer">
+  <div class="container">
+      <div class="row">
+          <div class="col-sm-6" style="text-align:center;">
+            <h5>
+              <a href="about.php">About</a> /
+              <a href="project.php">Projects</a> /
+              <a href="contact.php">Contact Me</a>
+            </h5>
+          </div>
+          <div class="col-sm-6" style="text-align:center;">
+            <h5>Site Designed by Sam McCagg</h5>
+          </div>
+      </zdiv>
+  </div>
+</div>
+
+</body>
+
+</html>
