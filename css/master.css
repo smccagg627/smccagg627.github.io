@@ -1,0 +1,182 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  height: 100%;
+  min-height: 100%;
+}
+* {
+  -webkit-box-sizing: border-box;
+  -moz-bos-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Wrapper for page content to push down footer */
+
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+/* Set the fixed height of the footer here */
+
+#footer {
+  height: 60px;
+  background-color: rgb(0, 107, 255);
+  margin-top: 20px;
+  color: white;
+}
+#mePic-container {
+  float: left;
+  margin-right: 5%;
+}
+
+/*Social Media Buttons*/
+
+.socialBox {
+  padding-top: 15px;
+  -ms-align-items: center;
+  align-items: center;
+}
+.btn-facebook {
+  color: #ffffff;
+  background-color: #133783;
+  border-color: #133783;
+}
+.btn-facebook:hover, .btn-facebook:focus, .btn-facebook:active, .btn-facebook.active, .open .dropdown-toggle.btn-facebook {
+  color: #ffffff;
+  background-color: #0e285f;
+  border-color: #0b214e;
+}
+.btn-facebook:active, .btn-facebook.active, .open .dropdown-toggle.btn-facebook {
+  background-image: none;
+}
+.btn-facebook.disabled, .btn-facebook[disabled], fieldset[disabled] .btn-facebook, .btn-facebook.disabled:hover, .btn-facebook[disabled]:hover, fieldset[disabled] .btn-facebook:hover, .btn-facebook.disabled:focus, .btn-facebook[disabled]:focus, fieldset[disabled] .btn-facebook:focus, .btn-facebook.disabled:active, .btn-facebook[disabled]:active, fieldset[disabled] .btn-facebook:active, .btn-facebook.disabled.active, .btn-facebook[disabled].active, fieldset[disabled] .btn-facebook.active {
+  background-color: #133783;
+  border-color: #133783;
+}
+.btn-twitter {
+  color: #ffffff;
+  background-color: #2daddc;
+  border-color: #0271bf;
+}
+.btn-twitter:hover, .btn-twitter:focus, .btn-twitter:active, .btn-twitter.active, .open .dropdown-toggle.btn-twitter {
+  color: #ffffff;
+  background-color: #2095c0;
+  border-color: #014d82;
+}
+.btn-twitter:active, .btn-twitter.active, .open .dropdown-toggle.btn-twitter {
+  background-image: none;
+}
+.btn-twitter.disabled, .btn-twitter[disabled], fieldset[disabled] .btn-twitter, .btn-twitter.disabled:hover, .btn-twitter[disabled]:hover, fieldset[disabled] .btn-twitter:hover, .btn-twitter.disabled:focus, .btn-twitter[disabled]:focus, fieldset[disabled] .btn-twitter:focus, .btn-twitter.disabled:active, .btn-twitter[disabled]:active, fieldset[disabled] .btn-twitter:active, .btn-twitter.disabled.active, .btn-twitter[disabled].active, fieldset[disabled] .btn-twitter.active {
+  background-color: #2daddc;
+  border-color: #0271bf;
+}
+.btn-github {
+  color: #000000;
+  background-color: #fafafa;
+  border-color: #cccccc;
+}
+.btn-github:hover, .btn-github:focus, .btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
+  color: #000000;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.btn-github:active, .btn-github.active, .open .dropdown-toggle.btn-github {
+  background-image: none;
+}
+.btn-github.disabled, .btn-github[disabled], fieldset[disabled] .btn-github, .btn-github.disabled:hover, .btn-github[disabled]:hover, fieldset[disabled] .btn-github:hover, .btn-github.disabled:focus, .btn-github[disabled]:focus, fieldset[disabled] .btn-github:focus, .btn-github.disabled:active, .btn-github[disabled]:active, fieldset[disabled] .btn-github:active, .btn-github.disabled.active, .btn-github[disabled].active, fieldset[disabled] .btn-github.active {
+  background-color: #fafafa;
+  border-color: #cccccc;
+}
+.btn-linkedin {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #60a9ce;
+  *background-color: #4393bb;
+  background-image: -moz-linear-gradient(top, #73b8db, #4393bb);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#73b8db), to(#4393bb));
+  background-image: -webkit-linear-gradient(top, #73b8db, #4393bb);
+  background-image: -o-linear-gradient(top, #73b8db, #4393bb);
+  background-image: linear-gradient(to bottom, #73b8db, #4393bb);
+  background-repeat: repeat-x;
+  border-color: #4393bb #4393bb #2f6783;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ff73b8db', endColorstr='#ff4393bb', GradientType=0);
+  filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-linkedin:hover, .btn-linkedin:focus, .btn-linkedin:active, .btn-linkedin.active, .btn-linkedin.disabled, .btn-linkedin[disabled] {
+  color: #ffffff;
+  background-color: #4393bb;
+  *background-color: #3c84a8;
+}
+.btn-linkedin:active, .btn-linkedin.active {
+  background-color: #367595 \9;
+}
+.btn-google-plus {
+  color: #ffffff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #d34332;
+  *background-color: #c53727;
+  background-image: -moz-linear-gradient(top, #dd4b39, #c53727);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dd4b39), to(#c53727));
+  background-image: -webkit-linear-gradient(top, #dd4b39, #c53727);
+  background-image: -o-linear-gradient(top, #dd4b39, #c53727);
+  background-image: linear-gradient(to bottom, #dd4b39, #c53727);
+  background-repeat: repeat-x;
+  border-color: #c53727 #c53727 #85251a;
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffdd4b39', endColorstr='#ffc53727', GradientType=0);
+  filter: progid: DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.btn-google-plus:hover, .btn-google-plus:focus, .btn-google-plus:active, .btn-google-plus.active, .btn-google-plus.disabled, .btn-google-plus[disabled] {
+  color: #ffffff;
+  background-color: #c53727;
+  *background-color: #b03123;
+}
+.btn-google-plus:active, .btn-google-plus.active {
+  background-color: #9a2b1f \9;
+}
+
+/* Project Page */
+
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+  margin-left:-15px;
+  margin-right: -15px;
+}
+
+#portfolio {
+  padding-top: 20px;
+}
+
+.project-text {
+  display:none;
+}
+
+.project-box:hover .project-text{
+  display: block;
+}
+
+.project-img:hover {
+  background: rga(0, 191, 255);
+  background: rgba(0, 191, 255, 0.8);
+}
+
+/*Contact Me*/
+
+#contactMeWelcome {
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/*About Me*/
+.gap {
+  margin:7.5px;
+}
